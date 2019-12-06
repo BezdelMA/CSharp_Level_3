@@ -1,0 +1,16 @@
+﻿<Window x:Class="MailSender.AddNewAccount"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MailSender"
+        mc:Ignorable="d"
+        Title="AddNewAccount" Height="307.6" Width="324.8">
+    <Grid Margin="0,0,3.6,4">
+        <TextBox x:Name="tbNewMail" HorizontalAlignment="Left" Height="23" Margin="98,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbNewPassword" HorizontalAlignment="Left" Height="23" Margin="98,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbCheckNewPassword" HorizontalAlignment="Left" Height="23" Margin="98,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnAddNewAccount" Content="Добавить" HorizontalAlignment="Left" Margin="121,197,0,0" VerticalAlignment="Top" Width="75" Click="btnAddNewAccount_Click"/>
+
+    </Grid>
+</Window>
